@@ -1,0 +1,45 @@
+<script type="text/javascript">
+   
+
+    function task3(){
+    var a =parseInt(prompt("Enter the number of A :-"));
+    var b =parseInt(prompt("Enter the number of B :-"));
+    var c =parseInt(prompt("Enter the number of C :-"));
+    var d =parseInt(prompt("Enter the number of D :-"));
+    document.write("<h1> number of A :- "+a+"</h1>");
+    document.write("<h1> number of B :- "+b+"</h1>");
+    document.write("<h1> number of C :- "+c+"</h1>");
+    document.write("<h1> number of D :- "+d+"</h1>");
+          if(a > b){
+               if(a > c){
+                     if(a > d){
+                        document.write("<h1>A is a big</h1>");
+                     }else{
+                        document.write("<h1>D is a big 1</h1>");
+                     }
+               }else{
+                if(c > d){
+                     document.write("<h1>C is big</h1>");
+                }else{
+                    document.write("<h1>D is a big 2</h1>");
+                }
+               }
+          }else{
+               if(b > c){
+                if(b > d){
+                    document.write("<h1>B is a big </h1>"); 
+                    }else{
+                        document.write("<h1>D is a big 3 </h1>"); 
+                    }
+               }else{
+                     if(c > d){
+                        document.write("<h1>C is a big 1 </h1>");
+                     }else{
+                        document.write("<h1>D is a big 4 </h1>");
+                     }
+               }
+          }
+    }
+  task3();  
+
+</script>

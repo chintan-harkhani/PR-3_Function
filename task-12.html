@@ -1,0 +1,27 @@
+<script type="text/javascript">
+
+    function vot(){
+        var age = parseInt(prompt("enter the Number : -"));
+        document.write("<h1>Ans of years :- "+age+"</h1>");
+        return age;
+    }
+  var tem = vot();
+    function vot1(tem){
+       if(tem>=18){
+          return 1;
+       }else{
+        return 2;
+       }
+    }
+   var tem1 = vot1(tem);
+   function vot2(tem1){
+    if(tem1==1){
+    document.write("<h1>Ans of a eligible for voting!</h1>");
+  }else{
+    document.write("<h1>Ans of a not eligible for voting!</h1>");
+  }
+   }
+   vot2(tem1);
+ 
+</script>
+

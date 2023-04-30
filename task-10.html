@@ -1,0 +1,33 @@
+<script type="text/javascript">
+       
+     function switc(){
+        var op = prompt("Enter the operator(+,-,*,/) :-");
+        var a = 10;
+        var b = 20;
+        var ans ;
+
+        document.write("<h1>Enter the operator(+,-,*,/) :-  "+op+"</h1>");
+        switch(op){
+           case '+':
+           ans = a + b;
+           document.write("<h1>Ans of a Addition:- "+ans+"</h1>"); 
+           break; 
+           case '-':
+           ans = a - b;
+           document.write("<h1>Ans of a Subtraction :- "+ans+"</h1>"); 
+           break; 
+           case '*':
+           ans = a * b;
+           document.write("<h1>Ans of a Multiplication:- "+ans+"</h1>");
+           break; 
+           case '/':
+           ans = a / b;
+           document.write("<h1>Ans of a Division:- "+ans+"</h1>"); 
+           break; 
+           default: document.write("<h1> Not value</h1>");       
+    }
+     }
+     switc();
+
+     
+</script>

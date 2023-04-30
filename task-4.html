@@ -1,0 +1,22 @@
+<script type="text/javascript">
+   
+   function task4(a,b,c,d){
+           if(a > b && a > c && a > d){
+            document.write("<h1>A is big</h1>");
+           }else if(b > a && b > c && b > d){
+            document.write("<h1>B is big </h1>");
+           }else if(c > a && c > b && c > d){
+            document.write("<h1>C is big </h1>");
+           }else if (d > a && d > b && d > c){
+            document.write("<h1>D is big </h1>");
+           }else{
+            document.write("<h1>All are same </h1>");
+           }          
+   }
+   var p =parseInt(prompt("Enter the number of A :-"));
+   var q =parseInt(prompt("Enter the number of B :-"));
+   var r =parseInt(prompt("Enter the number of C :-"));
+   var s =parseInt(prompt("Enter the number of D :-"));
+   task4(p,q,r,s); 
+
+</script>

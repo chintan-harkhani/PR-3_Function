@@ -1,0 +1,59 @@
+<script type="text/javascript">
+
+    function nest(){
+        var a = parseInt(prompt("Enter the no.  A:-"));
+        document.write("<h1>Ans of A :-"+a+"</h1>");
+        return a;
+    }
+    function nest2(){
+        var b = parseInt(prompt("Enter the no.  B:-"));
+        document.write("<h1>Ans of B :-"+b+"</h1>");
+        return b;
+    }
+    function nest3(){
+        var c = parseInt(prompt("Enter the no.  C:-"));
+        document.write("<h1>Ans of C :-"+c+"</h1>");
+        return c;
+    }
+
+    var p = nest();
+    var q = nest2();
+    var r = nest3();
+
+    function nest4(p,q,r){
+
+        if(p > q){
+            if(p > r){
+                return 1;
+            }
+            else{
+                return 2;
+            }
+        }
+        else{
+            if(q > r){
+                return 3;
+            }
+            else{
+                return 4;
+            }
+        }
+    }
+    var ans = nest4(p,q,r);
+
+    function nest5(ans){
+        if(ans == 1){
+           document.write("<h1> A is big</h1>");
+    }else if(ans==2){
+        document.write("<h1> C is big</h1>");
+    }else if(ans==3){
+        document.write("<h1> B is big</h1>");
+    }else if(ans==4){
+        document.write("<h1> C is big</h1>");
+    }
+    }
+ nest5(ans);   
+
+    
+    
+</script>

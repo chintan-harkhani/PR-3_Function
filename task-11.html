@@ -1,0 +1,41 @@
+<script type="text/javascript">
+
+    function tr1(){
+        var ang1 = parseInt(prompt("enter the number of angle 1 :-"));
+        document.write("<h1>angle 1:- "+ang1+"</h1>");
+        return ang1;
+    }
+    function tr2(){
+        var ang2 = parseInt(prompt("enter the number of angle 2 :-"));
+        document.write("<h1>angle 2:- "+ang2+"</h1>");
+        return ang2;
+    }
+    function tr3(){
+        var ang3 = parseInt(prompt("enter the number of angle 3 :-"));
+        document.write("<h1>angle 3:- "+ang3+"</h1>");
+        return ang3;
+    }
+    var p = tr1();
+    var q = tr2();
+    var r = tr3();
+
+    function sum(p ,q ,r){
+        var sum = p + q + r;
+        document.write("<h1>ans of sum:- "+sum+"</h1>")
+        return sum;
+    }
+ var res = sum(p ,q ,r);
+
+     function sub(res){
+        if(res==180){
+        document.write("<h1>Triangle is a valid</h1>");
+       }else{
+    document.write("<h1>Triangle is a not valid</h1>");
+ }
+     }
+
+sub(res);     
+     
+
+  
+</script>
